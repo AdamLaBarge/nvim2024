@@ -10,3 +10,4 @@ return {
   vim.keymap.set('n', '<leader>gc', ':Git commit <CR>', { noremap = true, silent = true }),
   vim.keymap.set('n', '<leader>gl', ':Git log <CR>', { noremap = true, silent = true }),
 }
+{ <div>  "this" 'that' }

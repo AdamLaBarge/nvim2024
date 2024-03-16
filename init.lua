@@ -768,7 +768,7 @@ require('lazy').setup {
       vim.api.nvim_set_hl(0, 'CursorLine', { bg = '#77900A' })
       vim.api.nvim_set_hl(0, 'IncSearch', { bg = '#FFFFFF' })
       vim.api.nvim_set_hl(0, 'Visual', { bg = '#B44040' })
-      vim.api.nvim_set_hl(0, 'Comment', { fg = '#C565D4' })
+      vim.api.nvim_set_hl(0, 'Comment', { fg = '#B986ae' })
       vim.cmd 'autocmd InsertEnter * highlight CursorLine guibg=#437CB3 guifg=clear'
       vim.cmd 'autocmd InsertLeave * highlight CursorLine guibg=#77900A guifg=clear'
     end,

@@ -50,7 +50,7 @@ return {
       desc = 'harpoon to file 4',
     },
     {
-      '<C-5>',
+      '<C-p>',
       function()
         require('harpoon'):list():select(5)
       end,

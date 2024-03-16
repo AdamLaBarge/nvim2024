@@ -9,5 +9,7 @@ return {
   vim.keymap.set('n', '<leader>ga', ':Git add . <CR>', { noremap = true, silent = true }),
   vim.keymap.set('n', '<leader>gc', ':Git commit <CR>', { noremap = true, silent = true }),
   vim.keymap.set('n', '<leader>gl', ':Git log <CR>', { noremap = true, silent = true }),
+  --Command Line
+  vim.api.nvim_set_keymap('n', ':', '<cmd>FineCmdline<CR>', { noremap = true }),
+  vim.api.nvim_set_keymap('n', '<CR>', '<cmd>FineCmdline<CR>', { noremap = true }),
 }
-{ <div>  "this" 'that' }

@@ -12,6 +12,12 @@ return {
   --Command Line
   vim.api.nvim_set_keymap('n', ':', '<cmd>FineCmdline<CR>', { noremap = true }),
   vim.api.nvim_set_keymap('n', '<CR>', '<cmd>FineCmdline<CR>', { noremap = true }),
+  --DANGEROUS
+  vim.api.nvim_set_keymap('n', '<leader>qa', ':qa <CR>', { noremap = true }),
   --Zen Mode
   vim.api.nvim_set_keymap('n', '<leader>zm', ':ZenMode <CR>', { noremap = true }),
+  --Vim Rails
+  vim.api.nvim_set_keymap('n', '<leader>em', ':Emodel <CR>', { noremap = true }),
+  vim.api.nvim_set_keymap('n', '<leader>ev', ':Eview <CR>', { noremap = true }),
+  vim.api.nvim_set_keymap('n', '<leader>ec', ':Econtroller <CR>', { noremap = true }),
 }
